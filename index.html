@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CustomSoft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container flex-between">
+      <h1 class="logo">CustomSoft</h1>
+      <nav class="main-nav">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open Navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="#solutions" data-en="Solutions" data-mm="ဖြေရှင်းချက်များ">Solutions</a>
+          </li>
+          <li>
+            <a href="#platforms" data-en="Platforms" data-mm="ပလက်ဖောင်းများ">Platforms</a>
+          </li>
+          <li class="products-nav-parent">
+            <a href="#products" class="has-dropdown" data-en="Products" data-mm="ထုတ်ကုန်များ">Products</a>
+            <ul class="products-dropdown">
+              <li>
+                <a href="#products" data-en="All Products" data-mm="ထုတ်ကုန်အားလုံး">All Products</a>
+              </li>
+              <li>
+                <a href="#products-casino" data-en="Casino" data-mm="ကာစီနို">Casino</a>
+              </li>
+              <li>
+                <a href="#products-payment" data-en="Payment" data-mm="ငွေပေးချေမှု">Payment</a>
+              </li>
+              <li>
+                <a href="#products-api" data-en="API/Integration" data-mm="API/ချိတ်ဆက်မှု">API/Integration</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#company" data-en="Company" data-mm="ကုမ္ပဏီ">Company</a>
+          </li>
+          <li>
+            <a href="#contact" data-en="Contact" data-mm="ဆက်သွယ်ရန်">Contact</a>
+          </li>
+        </ul>
+        <button class="lang-switcher" id="lang-switcher" aria-label="Switch Language">မြန်မာ</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h2 data-en="Modern iGaming Solutions" data-mm="ခေတ်သစ် အိုင်ဂိမ်း ဖြေရှင်းချက်များ">Modern iGaming Solutions</h2>
+      <p data-en="Fully customizable and secure software for all your iGaming needs."
+         data-mm="သင့်အိုင်ဂိမ်းလိုအပ်ချက်များအတွက် စိတ်ကြိုက်ပြုပြင်နိုင်ပြီး လုံခြုံသော ဆော့ဖ်ဝဲ။">
+        Fully customizable and secure software for all your iGaming needs.
+      </p>
+      <a href="#contact" class="btn-primary" data-en="Get Started" data-mm="စတင်လိုက်ပါ">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <h3 class="section-title" data-en="Our Products" data-mm="ကျွန်ုပ်တို့၏ ထုတ်ကုန်များ">Our Products</h3>
+      <div class="products-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <div class="product-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/1100/1100987.png" alt="Casino Platform" />
+          </div>
+          <div class="product-info">
+            <h4 data-en="Casino Platform" data-mm="ကာစီနို ပလက်ဖောင်း">Casino Platform</h4>
+            <div class="product-types">
+              <span class="type-badge" data-en="Casino" data-mm="ကာစီနို">Casino</span>
+              <span class="type-badge" data-en="Live Dealer" data-mm="တိုက်ရိုက်">Live Dealer</span>
+              <span class="type-badge" data-en="Slots" data-mm="စလော့">Slots</span>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <div class="product-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/9561/9561972.png" alt="Payment Gateway" />
+          </div>
+          <div class="product-info">
+            <h4 data-en="Payment Gateway" data-mm="ငွေပေးချေမှု တံခါးပေါက်">Payment Gateway</h4>
+            <div class="product-types">
+              <span class="type-badge" data-en="Payment" data-mm="ငွေပေးချေမှု">Payment</span>
+              <span class="type-badge" data-en="Crypto" data-mm="ကရစ်ပတို">Crypto</span>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <div class="product-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/2230/2230648.png" alt="Sports Betting" />
+          </div>
+          <div class="product-info">
+            <h4 data-en="Sports Betting" data-mm="အားကစား လောင်းကစား">Sports Betting</h4>
+            <div class="product-types">
+              <span class="type-badge" data-en="Sports" data-mm="အားကစား">Sports</span>
+              <span class="type-badge" data-en="Betting" data-mm="လောင်းကစား">Betting</span>
+              <span class="type-badge" data-en="eSports" data-mm="eSports">eSports</span>
+            </div>
+          </div>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <div class="product-logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="API Integration" />
+          </div>
+          <div class="product-info">
+            <h4 data-en="API Integration" data-mm="API ချိတ်ဆက်မှု">API Integration</h4>
+            <div class="product-types">
+              <span class="type-badge" data-en="API" data-mm="API">API</span>
+              <span class="type-badge" data-en="Aggregator" data-mm="ပေါင်းစည်း">Aggregator</span>
+            </div>
+          </div>
+        </div>
+        <!-- Add more product cards here if you like -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Keep previous sections as they are, e.g. Solutions, Platforms, Company, Contact, Footer -->
+
+  <section class="solutions" id="solutions">
+    <div class="container">
+      <h3 class="section-title" data-en="Our Solutions" data-mm="ကျွန်ုပ်တို့၏ ဖြေရှင်းချက်များ">Our Solutions</h3>
+      <div class="solutions-list">
+        <div class="solution-card">
+          <div class="icon-circle"><span>🎲</span></div>
+          <h4 data-en="Casino Platform" data-mm="ကာစီနို ပလက်ဖောင်း">Casino Platform</h4>
+          <p data-en="Launch your own online casino with robust features, security, and seamless integration."
+             data-mm="ခိုင်မာသည့် အင်္ဂါရပ်များ၊ လုံခြုံမှုနှင့် ပေါင်းစည်းနိုင်သည့် ကိုယ်ပိုင်အွန်လိုင်းကာစီနို စတင်နိုင်ပါသည်။">
+            Launch your own online casino with robust features, security, and seamless integration.
+          </p>
+        </div>
+        <div class="solution-card">
+          <div class="icon-circle"><span>⚽</span></div>
+          <h4
+          <p data-en="Offer live odds, pre-match bets, and an engaging sports experience to your users."
+             data-mm="အသက်ဝင်သည့် အားကစားအတွေ့အကြုံ၊ တိုက်ရိုက်နှုန်းနှင့် မတ်ခ်မတိုင်မီ လောင်းကစားမှုများ ပေးနိုင်သည်။">
+            Offer live odds, pre-match bets, and an engaging sports experience to your users.
+          </p>
+        </div>
+        <div class="solution-card">
+          <div class="icon-circle"><span>💸</span></div>
+          <h4 data-en="Payment Solutions" data-mm="ငွေပေးချေမှု ဖြေရှင်းချက်">Payment Solutions</h4>
+          <p data-en="Integrate multiple payment gateways and currencies for a frictionless player journey."
+             data-mm="ငွေပေးချေမှုတံခါးပေါင်းများစွာနှင့် ငွေကြေးအမျိုးမျိုး ထည့်သွင်းပေးနိုင်ပါသည်။">
+            Integrate multiple payment gateways and currencies for a frictionless player journey.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="platforms" id="platforms">
+    <div class="container">
+      <h3 class="section-title" data-en="Supported Platforms" data-mm="ထောက်ပံ့သည့် ပလက်ဖောင်းများ">Supported Platforms</h3>
+      <div class="platforms-list">
+        <div class="platform-card">
+          <span class="platform-icon">🖥️</span>
+          <h5 data-en="Web" data-mm="ဝက်ဘ်">Web</h5>
+          <p data-en="Fully responsive and browser-compatible for all desktop and laptop devices."
+             data-mm="ဒက်စ်တော့ပ်နှင့် လပ်တော့အတွက် တုံ့ပြန်မှုမြန်ပြီး ဘရောက်ဇာအားလုံးတွင် အသုံးပြုနိုင်သည်။">
+            Fully responsive and browser-compatible for all desktop and laptop devices.
+          </p>
+        </div>
+        <div class="platform-card">
+          <span class="platform-icon">📱</span>
+          <h5 data-en="Mobile" data-mm="မိုဘိုင်း">Mobile</h5>
+          <p data-en="Optimized mobile UX for both iOS and Android smartphones and tablets."
+             data-mm="iOS နှင့် Android စမတ်ဖုန်း၊ တက်ဘလက်များအတွက် မိုဘိုင်းအတွေ့အကြုံကို အကောင်းဆုံးဖြစ်အောင် ပြုလုပ်ထားသည်။">
+            Optimized mobile UX for both iOS and Android smartphones and tablets.
+          </p>
+        </div>
+        <div class="platform-card">
+          <span class="platform-icon">🧩</span>
+          <h5 data-en="API" data-mm="API">API</h5>
+          <p data-en="Plug into our solutions using modern, well-documented APIs."
+             data-mm="နောက်ဆုံးပေါ်၊ အသေးစိတ်ရေးသားထားသည့် API များဖြင့် ချိတ်ဆက်နိုင်ပါသည်။">
+            Plug into our solutions using modern, well-documented APIs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company" id="company">
+    <div class="container company-content">
+      <div>
+        <h3 class="section-title" data-en="About CustomSoft" data-mm="CustomSoft အကြောင်း">About CustomSoft</h3>
+        <p data-en="With over a decade of experience in the iGaming industry, we empower clients worldwide with innovative and secure gaming solutions. We value reliability, tradition, and the highest industry standards."
+           data-mm="အိုင်ဂိမ်းလုပ်ငန်းအတွေ့အကြုံ တစ်ဆယ်ကျော်ရှိသည့် ကျွန်ုပ်တို့သည် နောက်ဆုံးပေါ်၊ လုံခြုံမှုအပြည့်အဝရှိသည့် ဂိမ်းဖြေရှင်းချက်များဖြင့် ကမ္ဘာတစ်ဝှမ်းရှိ ဖောက်သည်များအား အင်အားဖြည့်ပေးနေပါသည်။ ယုံကြည်စိတ်ချမှု၊ ရိုးရာနည်းစနစ်များနှင့် စံချိန်အမြင့်ဆုံးများကို တန်ဖိုးထားသည်။">
+          With over a decade of experience in the iGaming industry, we empower clients worldwide with innovative and secure gaming solutions. We value reliability, tradition, and the highest industry standards.
+        </p>
+        <ul class="about-list">
+          <li data-en="10+ years of expertise" data-mm="အတွေ့အကြုံ ၁၀ နှစ်ကျော်">10+ years of expertise</li>
+          <li data-en="Global partners" data-mm="ကမ္ဘာလုံးဆိုင်ရာ မိတ်ဖက်များ">Global partners</li>
+          <li data-en="24/7 client support" data-mm="ဖောက်သည်ဝန်ဆောင်မှု (၂၄/၇)">24/7 client support</li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Team" class="company-img">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container contact-content">
+      <h3 class="section-title" data-en="Contact Us" data-mm="ဆက်သွယ်ရန်">Contact Us</h3>
+      <form class="contact-form">
+        <input type="text" required data-placeholder-en="Your Name" data-placeholder-mm="သင့်အမည်" placeholder="Your Name" />
+        <input type="email" required data-placeholder-en="Email Address" data-placeholder-mm="အီးမေးလ်လိပ်စာ" placeholder="Email Address" />
+        <textarea required data-placeholder-en="Your Message" data-placeholder-mm="သင့်စကားပြောရန်" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn-primary" data-en="Send Message" data-mm="ပေးပို့ရန်">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <span data-en="&copy; 2025 CustomSoft. All rights reserved." data-mm="&copy; ၂၀၂၅ CustomSoft။ မူပိုင်ခွင့်ရှိသည်။">
+        &copy; 2025 CustomSoft. All rights reserved.
+      </span>
+      <span data-en="Built with tradition & innovation." data-mm="ရိုးရာနှင့် ဆန်းသစ်မှုဖြင့် တည်ဆောက်ထားပါသည်။">
+        Built with tradition & innovation.
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
